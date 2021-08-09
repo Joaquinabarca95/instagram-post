@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    padding: 3%;
+}
+
+/* Post containter */
+.post {
+    height: 100vh;
+    width: 500px;
+    margin: 0 auto;
+}
+
+/* Post header */
+.post-header {
+    display: flex;
+    flex-direction: row;
+    height: 5%;
+    margin: 2%;
+}
+
+/* Profile Picture */
+.profile-picture {
+  padding: 3% 0;  
+}
+
+/*  Username and location */
+.profile-name-location {
+   float: left;
+   padding: 1.5%;
+}
+
+.profile-name-location h1{
+    font-size: 0.9em;
+}
+
+.profile-name-location p {
+    font-size: 0.7em;
+}
+/*  More options */
+
+.more-options {
+    float: right;
+    padding: 3% 390px;
+}
+
+/* Post image */
+.post-image {
+    height: 40%;
+}
+
+.post-image img{
+    height: 100%;
+    width: 100%;
+}
+
+/* Like, comment, send and save icons */
+
+.post-icons {
+    height: 3%;
+    padding: 3%;
+}
+
+.post-icons .left-icons {
+    float: left;
+}
+.post-icons .right-icons {
+    float: right;
+}
+
+/* Post likes */
+
+.post-likes {
+    height: 2%;
+    font-size: 0.8em;
+    padding: 2% ;
+}
+
+/* Post description */
+
+.post-description {
+    height: 30%;
+    font-size: 0.9em;
+    padding: 2%;
+}
